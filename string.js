@@ -24,6 +24,8 @@ const charAt = (str, index) => {
  * @returns {string} An empty string if no param
  * @returns {string} The concatenation of all strings passed in param
  */
-const concat = () => {};
+const concat = (str1,str2, ...strN)=> {
+    return `${str1}${str2}${strN}`
+};
 
 export default { charAt, concat };
